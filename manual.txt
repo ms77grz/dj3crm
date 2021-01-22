@@ -1,0 +1,23 @@
+$ pip install django
+$ pip freeze > requirements.txt
+
+$ touch .gitignore
+venv
+
+$ django-admin startproject djcrm .
+
+$ python manage.py migrate
+
+$ ./manage.py startapp leads
+
+djcrm/settings.py
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'leads',
+]
+
