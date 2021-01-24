@@ -11,4 +11,5 @@ $ python manage.py migrate
 
 $ ./manage.py startapp leads
 
-https://youtu.be/fOukA4Qh9QA?t=9511
+current time
+https://youtu.be/fOukA4Qh9QA?t=17780
