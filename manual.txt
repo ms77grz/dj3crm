@@ -12,4 +12,4 @@ $ python manage.py migrate
 $ ./manage.py startapp leads
 
 current time
-https://youtu.be/fOukA4Qh9QA?t=17780
+https://youtu.be/fOukA4Qh9QA?t=23133
